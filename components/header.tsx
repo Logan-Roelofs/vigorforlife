@@ -33,19 +33,19 @@ const navigationLinks = [
     children: [
       {
         title: "Individual Wellness Coaching",
-        href: "/Individual-Wellness-Coaching",
+        href: "/individual-wellness-coaching",
       },
       {
         title: "Transforming Workplace Culture",
-        href: "/Transforming-Workplace-Culture",
+        href: "/transforming-workplace-culture",
       },
       {
         title: "Relationship Wellness",
-        href: "/Relationship-Wellness",
+        href: "/relationship-wellness",
       },
       {
         title: "Customized Employee Satisfaction Survey",
-        href: "/Customized-Employee-Satisfaction-Survey",
+        href: "/customized-employee-satisfaction-survey",
       },
     ],
   },

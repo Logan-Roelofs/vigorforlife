@@ -97,7 +97,7 @@ export default function HomePage() {
                 Personalized support for your wellness journey. With science-backed strategies and tailored guidance, we’ll help you create healthy routines that bring balance, energy, and lasting vitality.
               </p>
               <div className="mt-4 flex flex-col items-center gap-2">
-                <a href="/Individual-Wellness-Coaching" className="text-primary font-semibold underline hover:text-primary/80 transition">Individual Wellness Coaching</a>
+                <a href="/individual-wellness-coaching" className="text-primary font-semibold underline hover:text-primary/80 transition">Individual Wellness Coaching</a>
 
               </div>
             </div>
@@ -110,7 +110,7 @@ export default function HomePage() {
                 Employee well-being isn’t just a perk—it’s a strategy for success. Through customizable wellness programs, we help teams boost energy, reduce stress, and build lasting habits that strengthen morale, productivity, and overall workplace culture.
               </p>
               <div className="mt-4 flex flex-col items-center gap-2">
-                <a href="/Transforming-Workplace-Culture" className="text-primary font-semibold underline hover:text-primary/80 transition"> Transforming Workplace Culture</a>
+                <a href="/transforming-workplace-culture" className="text-primary font-semibold underline hover:text-primary/80 transition"> Transforming Workplace Culture</a>
               </div>
             </div>
           </div>
@@ -123,7 +123,7 @@ export default function HomePage() {
               <p className="text-gray-600 text-center">
                 Stronger relationships create stronger workplaces. We help teams improve communication, build trust, and foster connection so collaboration thrives, stress decreases, and employees feel valued and supported.              </p>
               <div className="mt-4 flex flex-col items-center gap-2">
-                <a href="/Relationship-Wellness" className="text-primary font-semibold underline hover:text-primary/80 transition">Relationship Wellness</a>
+                <a href="/relationship-wellness" className="text-primary font-semibold underline hover:text-primary/80 transition">Relationship Wellness</a>
               </div>
             </div>
             <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition group">
@@ -133,7 +133,7 @@ export default function HomePage() {
               <p className="text-gray-600 text-center">
                 Give your employees a voice and uncover what truly drives engagement, retention, and performance. Our tailored surveys provide actionable insights that help leaders build trust, improve culture, and create workplaces where people thrive.              </p>
               <div className="mt-4 flex flex-col items-center gap-2">
-                <a href="/Customized-Employee-Satisfaction-Survey" className="text-primary font-semibold underline hover:text-primary/80 transition">Customized Employee Satisfaction Survey</a>
+                <a href="/customized-employee-satisfaction-survey" className="text-primary font-semibold underline hover:text-primary/80 transition">Customized Employee Satisfaction Survey</a>
               </div>
             </div>
           </div>
