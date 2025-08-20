@@ -28,24 +28,24 @@ const navigationLinks = [
     href: "/",
   },
   {
-    title: "Manager Services",
-    href: "/manager-services",
+    title: "Wellness Services",
+    href: "/wellness-services",
     children: [
       {
-        title: "Conflict Management",
-        href: "/conflict-management",
+        title: "Individual Wellness Coaching",
+        href: "/Individual-Wellness-Coaching",
       },
       {
-        title: "Employee Productivity",
-        href: "/employee-productivity",
+        title: "Transforming Workplace Culture",
+        href: "/Transforming-Workplace-Culture",
       },
       {
-        title: "Unlocking Team Dynamics",
-        href: "/unlocking-team-dynamics",
+        title: "Relationship Wellness",
+        href: "/Relationship-Wellness",
       },
       {
-        title: "Personal Influence",
-        href: "/personal-influence",
+        title: "Customized Employee Satisfaction Survey",
+        href: "/Customized-Employee-Satisfaction-Survey",
       },
     ],
   },

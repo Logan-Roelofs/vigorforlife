@@ -4,47 +4,79 @@ import { FaClipboardList } from "react-icons/fa";
 import { HiBuildingOffice2 } from "react-icons/hi2";
 import { LuSpeech } from "react-icons/lu";
 import { FaPersonRays } from "react-icons/fa6";
+import Image from "next/image";
 
 export default function HomePage() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
       <section
-        className="flex flex-col items-center justify-center flex-1 py-30 lg:py-50 text-center shadow-inner bg-transparent relative overflow-hidden"
-        style={{
-          backgroundImage: "url(static/angryboss.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center 30%",
-        }}
-      >
+        className="flex flex-col items-center justify-center flex-1 py-12 lg:py-20 text-center shadow-inner bg-transparent relative overflow-hidden" >
         <div className="absolute inset-0 bg-white/50 pointer-events-none" />
         <div className="relative z-10">
-          <h1 className="text-5xl md:text-7xl font-extrabold mb-4">
+          <h1 className="text-4xl md:text-6xl font-extrabold mb-3">
             <span className="text-gray-800">Vigor For Life</span>
           </h1>
-          <p className="text-xl md:text-2xl mb-10 bg-gradient-to-r from-primary to-primary bg-clip-text text-transparent">Wellness Coaching</p>
+          <p className="text-lg md:text-xl mb-6 bg-gradient-to-r from-primary to-primary bg-clip-text text-transparent">Wellness Coaching</p>
         </div>
       </section>
 
       {/* About Section */}
-      <section className="max-w-3xl mx-auto pt-20 pb-10 px-4" id="about">
+      <section className="max-w-3xl mx-auto pb-10 px-4" id="about">
         <h2 className="text-3xl font-bold mb-4 text-gray-800">Are chronic health challenges holding you back?</h2>
-        <p className="text-gray-600 text-lg leading-relaxed">
-          It is time to reclaim your vitality! Welcome to Vigor for
-          Life—where true wellness begins. When you give your
-          body the right tools to thrive—energy, creativity, and
-          balance naturally follow.
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
+          <div className="flex-1">
+            <p className="text-gray-600 text-lg leading-relaxed mb-4">
+              It is time to reclaim your vitality! Welcome to Vigor for
+              Life—where true wellness begins. When you give your
+              body the right tools to thrive—energy, creativity, and
+              balance naturally follow.
+            </p>
+            <p className="text-gray-600 text-lg leading-relaxed">
+              By addressing the root causes, symptoms fade, opening
+              the door to a healthier, more vibrant life. Jim Rooney is
+              here to guide you, helping you fine-tune your well-being
+              so you can feel your best and fully enjoy life.
+            </p>
+          </div>
+          <Image
+            src="static/jim.png"
+            alt="Jim Rooney"
+            className="w-73 h-82 robject-cover shadow-md md:ml-4 mt-6 md:mt-0"
+          />
+        </div>
+        {/* New informational text */}
+        <div className="mt-8 text-gray-700 text-lg leading-relaxed">
+          At Vigor for Life, we do not just offer quick fixes—we provide real solutions designed to restore balance, energy, and vitality. Your body has the power to heal, and we are here to help you unlock its full potential.<br /><br />
+          Your health coach complements, not replaces, your doctor. Together, we form a powerful team to help you thrive.
+        </div>
+      </section>
 
-          By addressing the root causes, symptoms fade, opening
-          the door to a healthier, more vibrant life. Jim Rooney is
-          here to guide you, helping you fine-tune your well-being
-          so you can feel your best and fully enjoy life.
+      {/* What Vigor for Life Offers Section */}
+      <section className="max-w-3xl mx-auto pt-10 pb-10 px-4" id="what-we-offer">
+        <h2 className="text-2xl font-bold mb-6 text-gray-800">What Vigor for Life Offers</h2>
+        <ul className="list-disc pl-6 text-gray-700 text-lg mb-6 space-y-2">
+          <li>
+            <span className="font-semibold">Custom Habit Creation</span>—Develop sustainable wellness routines that fit your lifestyle and goals.
+          </li>
+          <li>
+            <span className="font-semibold">Tailored Communication Support</span>—Coaching is adapted to the best way you process and express information.
+          </li>
+          <li>
+            <span className="font-semibold">Focused, Useful Guidance</span>—Get health insights rooted in science and presented clearly and free of jargon.
+          </li>
+          <li>
+            <span className="font-semibold">Balanced Accountability</span>—Enjoy thoughtful check-ins that keep you on track without pressure or guilt.
+          </li>
+          <li>
+            <span className="font-semibold">Encouraging Environment</span>—Grow in a space that celebrates progress and builds confidence gently.
+          </li>
+        </ul>
+        <p className="text-gray-700 text-lg mb-2">
+          Guidance, grit, and lasting gains — your coach keeps you strong as you journey through wellness lanes.
         </p>
-        <p className="text-gray-600 text-lg leading-relaxed">
-          By addressing the root causes, symptoms fade, opening
-          the door to a healthier, more vibrant life. Jim Rooney is
-          here to guide you, helping you fine-tune your well-being
-          so you can feel your best and fully enjoy life.
+        <p className="text-gray-700 text-lg font-semibold">
+          Let’s take the first step toward a healthier, more vibrant life today.
         </p>
       </section>
 
@@ -108,24 +140,11 @@ export default function HomePage() {
         </div>
       </section>
 
- 
-      {/* About Jim Rooney – The Manager’s Coach Section */}
-      <section className="max-w-3xl mx-auto pt-10 pb-10 px-4" id="about-jim">
-          <h2 className="text-3xl font-bold mb-4 text-gray-800 text-center">About Jim Rooney</h2>
-        <p className="text-gray-600 text-lg leading-relaxed mb-6">
-          <p className="text-gray-600 text-lg leading-relaxed mb-6">
-            For over 30 years, Jim has empowered individuals and teams to unlock their full potential through wellness coaching, personal development, and holistic strategies. At Vigor For Life, Jim specializes in guiding people to achieve greater energy, resilience, and balance—helping you and your organization thrive from the inside out.
-          </p>        </p>
-        <a href="/about-jim" className="text-primary font-semibold underline hover:text-primary/80 transition mb-8 inline-block">Learn More About Jim</a>
-        <p className="text-gray-600 text-lg leading-relaxed mt-6">
-          Still have questions? Reach out to discover how Jim and Vigor For Life can help you boost your well-being, increase your energy, and create lasting positive change in your life or organization.
-        </p>
-      </section>
 
       {/* Call to Action */}
       <section className="pt-10 pb-20 px-4 text-center">
         <h2 className="text-3xl font-bold mb-6 text-gray-800">
-          Ready to transform your business?
+          Ready to transform your health?
         </h2>
         <Button className="px-10 py-5 text-lg font-semibold shadow-lg hover:scale-105 transition" asChild>
           <a href="contact">Get in Touch</a>

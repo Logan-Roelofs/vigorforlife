@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "./ui/button";
 
 export default function Footer() {
   return (
@@ -11,7 +10,7 @@ export default function Footer() {
             About Jim
           </h3>
           <p className="text-sm text-gray-400">
-            Jim Rooney is a former Public Health Sanitarian who realized that to be more productive in his role as an environmental regulator and consultant he would have to learn to be skilled with people.
+            Jim Rooney is a certified health coach dedicated to helping others live with more energy, purpose, and connection.
           </p>
         </div>
         {/* Quick Links 1 */}
@@ -19,42 +18,22 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
           <ul className="space-y-1 mb-4">
             <li>
-              <a href="#" className="hover:underline text-sm">Dynamic Communication</a>
+              <a href="#" className="hover:underline text-sm">Individual Wellness Coaching</a>
             </li>
             <li>
-              <a href="#" className="hover:underline text-sm">Personal Influence</a>
-            </li>
-            <li>
-              <a href="#" className="hover:underline text-sm">Success Stories</a>
-            </li>
-            <li>
-              <a href="#" className="hover:underline text-sm">About Jim</a>
+              <a href="#" className="hover:underline text-sm">Transforming Workplace Culture</a>
             </li>
           </ul>
-          <a
-            href="static/Vigor-for-Life-seminar.pdf"
-            download
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block"
-          >
-            <Button className="w-full" variant="default">
-              Download Vigor for Life seminar
-            </Button>
-          </a>
         </div>
         {/* Quick Links 2 */}
         <div>
           <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
-          <ul className="space-y-1">
+          <ul className="space-y-1 mb-4">
             <li>
-              <a href="#" className="hover:underline text-sm">Our Approach</a>
+              <a href="#" className="hover:underline text-sm">Relationship Wellness</a>
             </li>
             <li>
-              <a href="#" className="hover:underline text-sm">Conflict Management</a>
-            </li>
-            <li>
-              <a href="#" className="hover:underline text-sm">Employee Productivity</a>
+              <a href="#" className="hover:underline text-sm">Customized Employee Satisfaction Survey</a>
             </li>
           </ul>
         </div>

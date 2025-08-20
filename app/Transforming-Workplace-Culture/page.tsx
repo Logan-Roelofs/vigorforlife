@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function ConflictManagementPage() {
+export default function TransformingWorkplaceCulturePage() {
   return (
     <div className="flex flex-col">
       {/* Page Title */}
@@ -10,103 +10,154 @@ export default function ConflictManagementPage() {
           Transforming Workplace Culture
         </h1>
         <h2 className="text-2xl md:text-3xl font-semibold text-primary mb-6">
-          Transforming Workplace Conflicts into Opportunities for Growth
+          Empower Your Team with Vigor for Life
         </h2>
       </section>
 
       {/* Intro */}
       <section className="max-w-3xl mx-auto py-6 px-2">
         <p className="text-gray-600 text-lg leading-relaxed mb-4">
-          Workplace conflicts are inevitable, but they don’t have to disrupt your team’s harmony or productivity. At People Smart Tools, we specialize in Conflict Management Coaching, helping managers and supervisors turn conflicts into opportunities for growth and improvement.
+          In today’s fast-paced work environment, employee well-being isn’t a
+          luxury, it’s a business strategy. Vigor for Life offers a customizable
+          wellness program designed to help your team feel better, work smarter,
+          and stay energized—no gym membership required.
         </p>
-      </section>
-
-      {/* Why Conflict Management Matters */}
-      <section className="max-w-3xl mx-auto py-6 px-2">
-        <h2 className="text-2xl font-bold mb-4 text-gray-800">Why Conflict Management Matters</h2>
         <p className="text-gray-600 text-lg leading-relaxed mb-4">
-          Unresolved conflicts can lead to decreased morale, reduced productivity, and increased employee turnover. By addressing conflicts proactively, you can foster a more positive work environment where employees feel valued and heard. Effective conflict management leads to:
+          We combine holistic health coaching with practical lifestyle support to
+          help employees:
         </p>
         <ul className="list-disc list-inside text-gray-600 text-lg leading-relaxed space-y-1 mb-4">
-          <li>Enhanced teamwork and collaboration</li>
-          <li>Improved communication skills</li>
-          <li>Increased employee satisfaction and retention</li>
-          <li>A healthier, more productive workplace culture</li>
+          <li>Increase energy and focus during the workday</li>
+          <li>Reduce stress and improve emotional resilience</li>
+          <li>Build simple habits for lasting vitality</li>
         </ul>
-      </section>
-
-      {/* Our Approach */}
-      <section className="max-w-3xl mx-auto py-6 px-2">
-        <h2 className="text-2xl font-bold mb-4 text-gray-800">Our Approach to Conflict Management Coaching</h2>
-        <div className="mb-6">
-          <h3 className="text-xl font-semibold text-gray-700 mb-2">Assessment and Understanding</h3>
-          <p className="text-gray-600 text-lg leading-relaxed">
-            We begin with a thorough assessment of the current conflict situation. Using state-of-the-art tools and techniques, we identify the root causes of conflicts and understand the perspectives of all parties involved.
-          </p>
-        </div>
-        <div className="mb-6">
-          <h3 className="text-xl font-semibold text-gray-700 mb-2">Customized Coaching Plans</h3>
-          <p className="text-gray-600 text-lg leading-relaxed">
-            Based on the assessment, we create a tailored coaching plan that addresses the specific needs of your team. Our plans include practical strategies and tools for managing and resolving conflicts effectively.
-          </p>
-        </div>
-        <div className="mb-6">
-          <h3 className="text-xl font-semibold text-gray-700 mb-2">Skill Development</h3>
-          <p className="text-gray-600 text-lg leading-relaxed mb-2">
-            We focus on developing key conflict management skills, including:
-          </p>
-          <ul className="list-disc list-inside text-gray-600 text-lg leading-relaxed space-y-1">
-            <li>Active listening</li>
-            <li>Empathy and emotional intelligence</li>
-            <li>Effective communication</li>
-            <li>Negotiation and mediation</li>
-            <li>Problem-solving and decision-making</li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="text-xl font-semibold text-gray-700 mb-2">Ongoing Support</h3>
-          <p className="text-gray-600 text-lg leading-relaxed">
-            Our coaching doesn’t end with the initial sessions. We provide ongoing support to ensure that the strategies and skills learned are effectively implemented and sustained in the workplace. We offer follow-up sessions, check-ins, and additional resources as needed.
-          </p>
-        </div>
+        <p className="text-gray-600 text-lg leading-relaxed mb-4">
+          Healthier employees are like rocket fuel for business success. Here’s
+          how they make a measurable impact:
+        </p>
       </section>
 
       {/* Benefits */}
       <section className="max-w-3xl mx-auto py-6 px-2">
-        <h2 className="text-2xl font-bold mb-4 text-gray-800">Benefits of Conflict Management Coaching</h2>
-        <div className="mb-6">
-          <h3 className="text-xl font-semibold text-gray-700 mb-2">For Managers and Supervisors</h3>
-          <ul className="list-disc list-inside text-gray-600 text-lg leading-relaxed space-y-1">
-            <li>Reduced time spent managing conflicts</li>
-            <li>Improved leadership skills</li>
-            <li>Enhanced ability to create a positive team environment</li>
-            <li>Increased influence and respect from employees</li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="text-xl font-semibold text-gray-700 mb-2">For Employees</h3>
-          <ul className="list-disc list-inside text-gray-600 text-lg leading-relaxed space-y-1">
-            <li>Increased job satisfaction</li>
-            <li>Better relationships with colleagues</li>
-            <li>Greater sense of belonging and value</li>
-            <li>Enhanced professional development</li>
-          </ul>
-        </div>
+        <h2 className="text-2xl font-bold mb-4 text-gray-800">
+          Boost Productivity &amp; Performance
+        </h2>
+        <ul className="list-disc list-inside text-gray-600 text-lg leading-relaxed space-y-1 mb-4">
+          <li>
+            Employees with better physical and mental health have more energy,
+            sharper focus, and fewer distractions.
+          </li>
+          <li>Studies show that healthier teams can boost productivity by up to 25%.</li>
+          <li>
+            Programs that support physical and mental wellness reduce burnout and
+            presenteeism (being at work but not fully functioning).
+          </li>
+        </ul>
+
+        <h2 className="text-2xl font-bold mb-4 text-gray-800">
+          Reduce Costs &amp; Absenteeism
+        </h2>
+        <ul className="list-disc list-inside text-gray-600 text-lg leading-relaxed space-y-1 mb-4">
+          <li>
+            Wellness initiatives can lower healthcare expenses and sick days. Poor
+            health costs U.S. businesses $530 billion annually in lost
+            productivity.
+          </li>
+          <li>Companies with strong wellness programs report up to 19% fewer absences.</li>
+          <li>Fewer sick days and less “working while unwell” means smoother operations.</li>
+        </ul>
+
+        <h2 className="text-2xl font-bold mb-4 text-gray-800">
+          Attract &amp; Retain Top Talent
+        </h2>
+        <ul className="list-disc list-inside text-gray-600 text-lg leading-relaxed space-y-1 mb-4">
+          <li>
+            A wellness-focused culture signals that you value your team’s
+            well-being.
+          </li>
+          <li>
+            This can improve recruitment and reduce turnover, especially among
+            younger workers who prioritize work-life balance.
+          </li>
+        </ul>
+
+        <h2 className="text-2xl font-bold mb-4 text-gray-800">
+          Strengthen Company Culture
+        </h2>
+        <ul className="list-disc list-inside text-gray-600 text-lg leading-relaxed space-y-1 mb-4">
+          <li>
+            Wellness programs foster connection and boost morale and a sense of
+            belonging.
+          </li>
+          <li>
+            Group activities like walking meetings, fitness challenges, or
+            mindfulness workshops build camaraderie.
+          </li>
+        </ul>
+
+        <h2 className="text-2xl font-bold mb-4 text-gray-800">
+          Improve Brand Reputation
+        </h2>
+        <ul className="list-disc list-inside text-gray-600 text-lg leading-relaxed space-y-1 mb-4">
+          <li>
+            Businesses that prioritize employee wellness are seen as progressive
+            and people-first.
+          </li>
+          <li>
+            This can enhance your public image and appeal to socially conscious
+            clients and partners.
+          </li>
+        </ul>
+
+        <h2 className="text-2xl font-bold mb-4 text-gray-800">
+          Encourage Innovation &amp; Creativity
+        </h2>
+        <ul className="list-disc list-inside text-gray-600 text-lg leading-relaxed space-y-1 mb-4">
+          <li>
+            A mentally and emotionally supported workforce is more likely to think
+            creatively and solve problems effectively.
+          </li>
+          <li>
+            Wellness programs that include stress management and emotional
+            resilience training can fuel innovation.
+          </li>
+        </ul>
+
+        <h2 className="text-2xl font-bold mb-4 text-gray-800">
+          Stronger Client &amp; Customer Relations
+        </h2>
+        <ul className="list-disc list-inside text-gray-600 text-lg leading-relaxed space-y-1 mb-4">
+          <li>
+            Healthier employees create a more positive work environment, which
+            improves communication and client interactions, boosting business
+            success.
+          </li>
+        </ul>
+      </section>
+
+      {/* Closing Statement */}
+      <section className="max-w-3xl mx-auto py-6 px-2">
+        <p className="text-gray-600 text-lg leading-relaxed mb-4">
+          Implementing a workplace wellness program isn’t just good for employee
+          health, it’s a strategic move that can unlock serious business growth.
+        </p>
+        <p className="text-gray-600 text-lg leading-relaxed mb-4">
+          Whether you’re a small business or growing enterprise, we make wellness
+          accessible, engaging, and results driven. Let’s create a healthier
+          workplace that supports your people and your bottom line.
+        </p>
       </section>
 
       {/* Call to Action */}
       <section className="max-w-3xl mx-auto py-6 px-2 text-center">
         <h2 className="text-2xl font-bold mb-6 text-gray-800">
-          Get Started with Conflict Management Coaching
+          Ready to transform your workplace culture?
         </h2>
-        <p className="text-gray-600 text-lg leading-relaxed mb-6">
-          Ready to transform conflicts into opportunities for growth? Contact People Smart Tools today to learn more about our Conflict Management Coaching services and how we can help you create a harmonious and productive workplace.
-        </p>
         <Link
           href="/contact"
           className="inline-block px-8 py-4 bg-primary text-white font-semibold rounded-lg shadow-lg hover:bg-primary/90 transition"
         >
-          Contact Us
+          Get in Touch
         </Link>
       </section>
     </div>
