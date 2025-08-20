@@ -28,10 +28,6 @@ const navigationLinks = [
     href: "/",
   },
   {
-    title: "Our Approach",
-    href: "/our-approach",
-  },
-  {
     title: "Manager Services",
     href: "/manager-services",
     children: [
@@ -53,17 +49,10 @@ const navigationLinks = [
       },
     ],
   },
-  {
-    title: "Success Stories",
-    href: "/success-stories",
-  },
+
   {
     title: "About Jim",
     href: "/about-jim",
-  },
-  {
-    title: "Resources",
-    href: "/resources",
   },
 ]
 

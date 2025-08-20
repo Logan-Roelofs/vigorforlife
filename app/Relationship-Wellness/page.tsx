@@ -7,7 +7,7 @@ export default function ConflictManagementPage() {
       {/* Page Title */}
       <section className="max-w-3xl mx-auto py-6 px-2 text-center">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-4 text-gray-800">
-          Coaching: Conflict Management
+          Relationship Wellness
         </h1>
         <h2 className="text-2xl md:text-3xl font-semibold text-primary mb-6">
           Transforming Workplace Conflicts into Opportunities for Growth

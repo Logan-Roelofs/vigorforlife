@@ -105,7 +105,7 @@ export default function Footer() {
       </div>
       {/* Footer Bottom */}
       <div className="max-w-7xl mx-auto mt-10 border-t border-gray-800 pt-4 text-center text-xs text-gray-500">
-        © 2025 | People Smart Tools | All Rights Reserved.
+        © 2025 | Vigor For Life | All Rights Reserved.
       </div>
     </footer>
   );
