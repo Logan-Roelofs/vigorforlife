@@ -11,7 +11,7 @@ export default function ContactUsPage() {
         <div className="flex flex-col md:flex-row items-center gap-6">
           {/* Jim's Image */}
           <Image
-            src="/static/Jim.webp"
+            src="static/Jim.webp"
             alt="Jim - Wellness Coach"
             width={160}
             height={160}

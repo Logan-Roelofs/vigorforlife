@@ -10,7 +10,7 @@ export default function AboutJimPage() {
         <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
           <div>
             <Image
-              src="/static/Jimtree.png"
+              src="static/Jimtree.png"
               alt="Jimtree"
               width={224}
               height={224}
