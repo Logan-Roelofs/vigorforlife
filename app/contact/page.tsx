@@ -33,7 +33,7 @@ export default function ContactUsPage() {
               and start your journey toward vitality!
             </p>
             <a
-              href="mailto:peoplesmarttools@gmail.com"
+              href="mailto:jim@vigorforlife.com"
               className="text-blue-600 underline hover:text-blue-800 text-lg font-semibold"
             >
               Email Jim
