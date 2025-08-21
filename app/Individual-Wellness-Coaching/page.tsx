@@ -35,7 +35,7 @@ export default function IndividualWellnessCoachingPage() {
         <h2 className="text-2xl font-bold mb-4 text-gray-800">Accountability &amp; Motivation</h2>
         <ul className="list-disc list-inside text-gray-600 text-lg leading-relaxed space-y-1 mb-4">
           <li>Having someone in your corner helps you stay committed even on low-energy days.</li>
-          <li>Coaches offer constructive feedback and encouragement, making it easier to push through challenges and celebrate wins.</li>
+          <li>Coaches offer constructive feedback and encouragement, making it easier to push through challenges and celebrate wins. </li>
         </ul>
 
         <h2 className="text-2xl font-bold mb-4 text-gray-800">Holistic Support</h2>

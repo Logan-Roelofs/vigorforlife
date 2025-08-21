@@ -30,7 +30,7 @@ export default function ContactUsPage() {
             <p className="mb-4 text-base">
               Whether you’re seeking one-on-one guidance or support for your team,
               Jim is here to help you unlock your full potential. Reach out today
-              and start your journey toward vitality!
+              and start your journey toward vitality! 
             </p>
             <a
               href="mailto:jim@vigorforlife.com"

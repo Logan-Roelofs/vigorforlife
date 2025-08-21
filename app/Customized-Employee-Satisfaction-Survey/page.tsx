@@ -19,8 +19,8 @@ export default function CustomizedEmployeeSatisfactionSurveyPage() {
         <p className="text-gray-600 text-lg leading-relaxed mb-4">
           Employee satisfaction surveys are more than just feedback forms—they’re
           strategic tools that can transform workplace culture, boost performance,
-          and guide leadership decisions. An Employee Satisfaction Survey can
-          actively enhance employee wellbeing when used thoughtfully.
+          and guide leadership decisions. An Employee Satisfaction Survey can 
+          actively enhance employee wellbeing when used thoughtfully. 
         </p>
       </section>
 

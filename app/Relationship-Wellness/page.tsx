@@ -20,7 +20,7 @@ export default function RelationshipWellnessPage() {
           Relationship wellness in the workplace isn’t just a feel-good concept—it’s
           a strategic advantage. When employees experience healthy, supportive
           relationships at work, the ripple effects touch everything from
-          productivity to mental health to retention.
+          productivity to mental health to retention. 
         </p>
       </section>
 
