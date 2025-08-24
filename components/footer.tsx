@@ -60,7 +60,7 @@ export default function Footer() {
               </div>
             </div>
             <div>
-              <span className="font-medium">Email:</span> <a href="mailto:peoplesmarttools@gmail.com" className="hover:underline">peoplesmarttools@gmail.com</a>
+              <span className="font-medium">Email:</span> <a href="mailto:jim@vigorforlife.com" className="hover:underline">jim@vigorforlife.com</a>
             </div>
           </div>
           <div className="mt-3">
