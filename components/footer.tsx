@@ -18,10 +18,10 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
           <ul className="space-y-1 mb-4">
             <li>
-              <a href="#" className="hover:underline text-sm">Individual Wellness Coaching</a>
+              <a href="/individual-wellness-coaching" className="hover:underline text-sm">Individual Wellness Coaching</a>
             </li>
             <li>
-              <a href="#" className="hover:underline text-sm">Transforming Workplace Culture</a>
+              <a href="/transforming-workplace-culture" className="hover:underline text-sm">Transforming Workplace Culture</a>
             </li>
           </ul>
         </div>
@@ -30,10 +30,10 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
           <ul className="space-y-1 mb-4">
             <li>
-              <a href="#" className="hover:underline text-sm">Relationship Wellness</a>
+              <a href="/relationship-wellness" className="hover:underline text-sm">Relationship Wellness</a>
             </li>
             <li>
-              <a href="#" className="hover:underline text-sm">Customized Employee Satisfaction Survey</a>
+              <a href="/customized-employee-satisfaction-survey" className="hover:underline text-sm">Customized Employee Satisfaction Survey</a>
             </li>
           </ul>
         </div>
